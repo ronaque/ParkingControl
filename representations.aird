@@ -102,7 +102,7 @@
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_U7YfccoAEe-Vb7egdh-UmQ" name="Parametric Diagram" repPath="#_U7X4YMoAEe-Vb7egdh-UmQ" changeId="1735928823913">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ktY0EMoKEe-Vb7egdh-UmQ" name="Activitys" repPath="#_ktYNAMoKEe-Vb7egdh-UmQ" changeId="1736212741914">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ktY0EMoKEe-Vb7egdh-UmQ" name="Activitys" repPath="#_ktYNAMoKEe-Vb7egdh-UmQ" changeId="1736704328625">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']"/>
         <target xmi:type="sysadl:Package" href="ParkingControl.sysadl#//@packages[name='SysADL.types']"/>
       </ownedRepresentationDescriptors>
@@ -140,6 +140,18 @@
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_6G8CMcyUEe-HLskI6asmVQ" name="ValidatePaymentAC" repPath="#_6G7bIMyUEe-HLskI6asmVQ" changeId="1736212660826">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']"/>
         <target xmi:type="sysadl:ActivityBody" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidatePaymentAC']/@body"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_rQmGMNEMEe-jrqEaGty64g" name="ValidadeTicketAC" repPath="#_rQk4ENEMEe-jrqEaGty64g" changeId="1736703785979">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']"/>
+        <target xmi:type="sysadl:ActivityDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tXe6MtEMEe-jrqEaGty64g" name="ValidadeTicketAC" repPath="#_tXe6MNEMEe-jrqEaGty64g" changeId="1736704389678">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']"/>
+        <target xmi:type="sysadl:ActivityBody" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_rezr4NENEe-jrqEaGty64g" name="ValidateTicketPaymentAN" repPath="#_rezE0NENEe-jrqEaGty64g" changeId="1736704266184">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']"/>
+        <target xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -8296,11 +8308,104 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_tgllscyUEe-HLskI6asmVQ" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgllssyUEe-HLskI6asmVQ" x="595" y="437"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_jHiw4NELEe-jrqEaGty64g" type="3009" element="_jFvaENELEe-jrqEaGty64g">
+              <children xmi:type="notation:Node" xmi:id="_jHsh4NELEe-jrqEaGty64g" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_jHtI8NELEe-jrqEaGty64g" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_jHwMQNELEe-jrqEaGty64g" type="3010" element="_jGJCsdELEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_jHwMQdELEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_jHwMQtELEe-jrqEaGty64g"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_6DSB8NENEe-jrqEaGty64g" type="3010" element="_6Czg0dENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_6DSB8dENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_6DSB8tENEe-jrqEaGty64g"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_6gEEldENEe-jrqEaGty64g" type="3010" element="_6f8Iy9ENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_6gEEltENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_6gEEl9ENEe-jrqEaGty64g"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_7BevldENEe-jrqEaGty64g" type="3010" element="_7BAOdtENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_7BevltENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_7Bevl9ENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_jHtI8dELEe-jrqEaGty64g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_jHtI8tELEe-jrqEaGty64g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jHiw4dELEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jHiw4tELEe-jrqEaGty64g" x="74" y="844"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_luLmgNEMEe-jrqEaGty64g" type="3009" element="_ltKS1NEMEe-jrqEaGty64g">
+              <children xmi:type="notation:Node" xmi:id="_luMNkNEMEe-jrqEaGty64g" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_luMNkdEMEe-jrqEaGty64g" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_m5lNMNENEe-jrqEaGty64g" type="3010" element="_m5DoyNENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_m5lNMdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_m5lNMtENEe-jrqEaGty64g"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_nxCZoNENEe-jrqEaGty64g" type="3010" element="_nw5PzNENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_nxCZodENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_nxCZotENEe-jrqEaGty64g"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_otfa0NENEe-jrqEaGty64g" type="3010" element="_otXfA9ENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_otfa0dENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_otfa0tENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_luMNktEMEe-jrqEaGty64g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_luMNk9EMEe-jrqEaGty64g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_luLmgdEMEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_luLmgtEMEe-jrqEaGty64g" x="362" y="844"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Yl66UNENEe-jrqEaGty64g" type="3009" element="_YlCJiNENEe-jrqEaGty64g">
+              <children xmi:type="notation:Node" xmi:id="_Yl66U9ENEe-jrqEaGty64g" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_Yl66VNENEe-jrqEaGty64g" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_hbArsNENEe-jrqEaGty64g" type="3010" element="_ha26xtENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_hbArsdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_hbArstENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Yl66VdENEe-jrqEaGty64g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Yl66VtENEe-jrqEaGty64g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Yl66UdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yl66UtENEe-jrqEaGty64g" x="378" y="771"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Z_hKgNENEe-jrqEaGty64g" type="3009" element="_Z_UWQdENEe-jrqEaGty64g">
+              <children xmi:type="notation:Node" xmi:id="_Z_hKg9ENEe-jrqEaGty64g" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_Z_hKhNENEe-jrqEaGty64g" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f02mMNENEe-jrqEaGty64g" type="3010" element="_f0TMl9ENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f02mMdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f02mMtENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Z_hKhdENEe-jrqEaGty64g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Z_hKhtENEe-jrqEaGty64g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Z_hKgdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z_hKgtENEe-jrqEaGty64g" x="392" y="949"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_i8S4QNENEe-jrqEaGty64g" type="3009" element="_i7j4cNENEe-jrqEaGty64g">
+              <children xmi:type="notation:Node" xmi:id="_i8TfUdENEe-jrqEaGty64g" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_i8TfUtENEe-jrqEaGty64g" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_knZIINENEe-jrqEaGty64g" type="3010" element="_km9DR9ENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_knZIIdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_knZIItENEe-jrqEaGty64g"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_lM0wcNENEe-jrqEaGty64g" type="3010" element="_lMs0q9ENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_lM0wcdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_lM0wctENEe-jrqEaGty64g"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_vcxWQNENEe-jrqEaGty64g" type="3010" element="_vcUDSdENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vcxWQdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vcxWQtENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_i8TfU9ENEe-jrqEaGty64g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_i8TfVNENEe-jrqEaGty64g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8S4QdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8TfUNENEe-jrqEaGty64g" x="680" y="834"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_ktb3Z8oKEe-Vb7egdh-UmQ"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_ktb3aMoKEe-Vb7egdh-UmQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_ktb3Y8oKEe-Vb7egdh-UmQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktb3ZMoKEe-Vb7egdh-UmQ" x="160" y="-20" width="1013" height="913"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktb3ZMoKEe-Vb7egdh-UmQ" x="160" y="-20" width="1013" height="1148"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_ktZbIcoKEe-Vb7egdh-UmQ"/>
         <edges xmi:type="notation:Edge" xmi:id="_SEFfMMySEe-HLskI6asmVQ" type="4001" element="_SD_YlMySEe-HLskI6asmVQ" source="_I9qGMMySEe-HLskI6asmVQ" target="_mjuooMyREe-HLskI6asmVQ">
@@ -8350,6 +8455,54 @@
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A1x4w8yVEe-HLskI6asmVQ" points="[0, 0, -289, 28]$[289, -28, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A1yf0MyVEe-HLskI6asmVQ" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A1yf0cyVEe-HLskI6asmVQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1o1P4NENEe-jrqEaGty64g" type="4001" element="_1oZLDNENEe-jrqEaGty64g" source="_jHiw4NELEe-jrqEaGty64g" target="_Yl66UNENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_1o128NENEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1o128dENEe-jrqEaGty64g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1o128tENEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1o1289ENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1o129NENEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1o129dENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1o1P4dENEe-jrqEaGty64g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1o1P4tENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1o1P49ENEe-jrqEaGty64g" points="[0, 0, -304, 73]$[304, -73, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1o3sINENEe-jrqEaGty64g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1o3sIdENEe-jrqEaGty64g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2MfWk9ENEe-jrqEaGty64g" type="4001" element="_2MXawtENEe-jrqEaGty64g" source="_jHiw4NELEe-jrqEaGty64g" target="_Z_hKgNENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_2MfWl9ENEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2MfWmNENEe-jrqEaGty64g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2MfWmdENEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2MfWmtENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2MfWm9ENEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2MfWnNENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2MfWlNENEe-jrqEaGty64g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2MfWldENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2MfWltENEe-jrqEaGty64g" points="[0, 0, -318, -105]$[318, 105, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Mf9oNENEe-jrqEaGty64g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Mf9odENEe-jrqEaGty64g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_4eGM0NENEe-jrqEaGty64g" type="4001" element="_4d_fN9ENEe-jrqEaGty64g" source="_jHiw4NELEe-jrqEaGty64g" target="_luLmgNEMEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_4eGM1NENEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eGM1dENEe-jrqEaGty64g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4eGM1tENEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eGM19ENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4eGM2NENEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eGM2dENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_4eGM0dENEe-jrqEaGty64g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_4eGM0tENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4eGM09ENEe-jrqEaGty64g" points="[0, 0, -288, 0]$[288, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4eGz4NENEe-jrqEaGty64g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4eGz4dENEe-jrqEaGty64g" id="(0.5,0.5)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -8675,6 +8828,142 @@
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Constraint']/@subNodeMappings[name='BDD.Constraint.ParamOut']"/>
         </ownedElements>
       </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_jFvaENELEe-jrqEaGty64g" name="&lt;&lt;activity>>&#xA;ValidadeTicketAC" outgoingEdges="_1oZLDNENEe-jrqEaGty64g _2MXawtENEe-jrqEaGty64g _4d_fN9ENEe-jrqEaGty64g">
+        <target xmi:type="sysadl:ActivityDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']"/>
+        <semanticElements xmi:type="sysadl:ActivityDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_jF1gsNELEe-jrqEaGty64g" iconPath="/org.sysadl.viewpoints/icons/Activity.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" foregroundColor="126,177,254">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_jGJCsdELEe-jrqEaGty64g" name="Open Activity Diagram">
+          <target xmi:type="sysadl:ActivityBody" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body"/>
+          <semanticElements xmi:type="sysadl:ActivityBody" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_jGJCstELEe-jrqEaGty64g" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.Body']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.Body']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_6Czg0dENEe-jrqEaGty64g" name="in payment : Payment">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@inParameters[name='payment']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@inParameters[name='payment']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_6Czg0tENEe-jrqEaGty64g" showIcon="false" labelPosition="node">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_6f8Iy9ENEe-jrqEaGty64g" name="in ticket : Ticket">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@inParameters[name='ticket']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@inParameters[name='ticket']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_6f8IzNENEe-jrqEaGty64g" showIcon="false" labelPosition="node">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.InParams']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_7BAOdtENEe-jrqEaGty64g" name="out isValid : Boolean">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@outParameters[name='isValid']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@outParameters[name='isValid']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_7BAOd9ENEe-jrqEaGty64g" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.OutParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Activity']/@subNodeMappings[name='BDD.Activity.OutParams']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_ltKS1NEMEe-jrqEaGty64g" name="&lt;&lt;action>>&#xA;ValidateTicketPaymentAN : Boolean" incomingEdges="_4d_fN9ENEe-jrqEaGty64g">
+        <target xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']"/>
+        <semanticElements xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ltKS1dEMEe-jrqEaGty64g" iconPath="/org.sysadl.viewpoints/icons/Action.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" foregroundColor="126,177,254">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_m5DoyNENEe-jrqEaGty64g" name="postCondition ValidateTicketPaymentEQ">
+          <target xmi:type="sysadl:ConstraintUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@constraints.0"/>
+          <semanticElements xmi:type="sysadl:ConstraintUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@constraints.0"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_m5DoydENEe-jrqEaGty64g" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@subNodeMappings[name='BDD.Action.ConstraintUse']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@subNodeMappings[name='BDD.Action.ConstraintUse']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_nw5PzNENEe-jrqEaGty64g" name="in ticket:Ticket">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@inParameters[name='ticket']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@inParameters[name='ticket']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_nw52wNENEe-jrqEaGty64g" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@subNodeMappings[name='BDD.Action.InParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@subNodeMappings[name='BDD.Action.InParams']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_otXfA9ENEe-jrqEaGty64g" name="in payment:Payment">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@inParameters[name='payment']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@inParameters[name='payment']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_otXfBNENEe-jrqEaGty64g" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@subNodeMappings[name='BDD.Action.InParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@subNodeMappings[name='BDD.Action.InParams']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_YlCJiNENEe-jrqEaGty64g" name="&lt;&lt;action>>&#xA;ReceivePaymentAN : Payment" incomingEdges="_1oZLDNENEe-jrqEaGty64g">
+        <target xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ReceivePaymentAN']"/>
+        <semanticElements xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ReceivePaymentAN']"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_YlCJidENEe-jrqEaGty64g" iconPath="/org.sysadl.viewpoints/icons/Action.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" foregroundColor="126,177,254">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_ha26xtENEe-jrqEaGty64g" name="in payment:Payment">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ReceivePaymentAN']/@inParameters[name='payment']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ReceivePaymentAN']/@inParameters[name='payment']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_ha26x9ENEe-jrqEaGty64g" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@subNodeMappings[name='BDD.Action.InParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@subNodeMappings[name='BDD.Action.InParams']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Z_UWQdENEe-jrqEaGty64g" name="&lt;&lt;action>>&#xA;ReceiveTicketAN : Ticket" incomingEdges="_2MXawtENEe-jrqEaGty64g">
+        <target xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ReceiveTicketAN']"/>
+        <semanticElements xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ReceiveTicketAN']"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Z_U9QNENEe-jrqEaGty64g" iconPath="/org.sysadl.viewpoints/icons/Action.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" foregroundColor="126,177,254">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f0TMl9ENEe-jrqEaGty64g" name="in ticket:Ticket">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ReceiveTicketAN']/@inParameters[name='ticket']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ReceiveTicketAN']/@inParameters[name='ticket']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_f0TMmNENEe-jrqEaGty64g" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@subNodeMappings[name='BDD.Action.InParams']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Action']/@subNodeMappings[name='BDD.Action.InParams']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_i7j4cNENEe-jrqEaGty64g" name="&lt;&lt;Constraint>>&#xA;ValidateTicketPaymentEQ">
+        <target xmi:type="sysadl:ConstraintDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']"/>
+        <semanticElements xmi:type="sysadl:ConstraintDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_i7ltoNENEe-jrqEaGty64g" iconPath="/org.sysadl.viewpoints/icons/Constraint.gif" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" foregroundColor="126,177,254">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Constraint']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Constraint']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_km9DR9ENEe-jrqEaGty64g" name="Param In ticket:Ticket">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@inParameters[name='ticket']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@inParameters[name='ticket']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_km9DSNENEe-jrqEaGty64g" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Constraint']/@subNodeMappings[name='BDD.Constraint.ParamIn']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Constraint']/@subNodeMappings[name='BDD.Constraint.ParamIn']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_lMs0q9ENEe-jrqEaGty64g" name="Param In payment:Payment">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@inParameters[name='payment']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@inParameters[name='payment']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_lMs0rNENEe-jrqEaGty64g" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Constraint']/@subNodeMappings[name='BDD.Constraint.ParamIn']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Constraint']/@subNodeMappings[name='BDD.Constraint.ParamIn']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_vcUDSdENEe-jrqEaGty64g" name="Param Out isValid:Boolean">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@outParameters[name='isValid']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@outParameters[name='isValid']"/>
+          <ownedStyle xmi:type="diagram:Dot" uid="_vcUDStENEe-jrqEaGty64g" showIcon="false">
+            <description xmi:type="style:DotDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Constraint']/@subNodeMappings[name='BDD.Constraint.ParamOut']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@containerMappings[name='BDD.Behavior.Self']/@subContainerMappings[name='BDD.Constraint']/@subNodeMappings[name='BDD.Constraint.ParamOut']"/>
+        </ownedElements>
+      </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_SD_YlMySEe-HLskI6asmVQ" sourceNode="_I9P2gMySEe-HLskI6asmVQ" targetNode="_mjoiAcyREe-HLskI6asmVQ">
       <target xmi:type="sysadl:ActivityDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='CalculateSpotIndicationAC']"/>
@@ -8697,6 +8986,30 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_A1tAQMyVEe-HLskI6asmVQ" sourceArrow="FillDiamond" targetArrow="NoDecoration" size="2">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@edgeMappings[name='BDD.Activity.Composition']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_A1tAQcyVEe-HLskI6asmVQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@edgeMappings[name='BDD.Activity.Composition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_1oZLDNENEe-jrqEaGty64g" sourceNode="_jFvaENELEe-jrqEaGty64g" targetNode="_YlCJiNENEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_1oZLDdENEe-jrqEaGty64g" sourceArrow="FillDiamond" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@edgeMappings[name='BDD.Activity.Composition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_1oZLDtENEe-jrqEaGty64g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@edgeMappings[name='BDD.Activity.Composition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_2MXawtENEe-jrqEaGty64g" sourceNode="_jFvaENELEe-jrqEaGty64g" targetNode="_Z_UWQdENEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_2MXaw9ENEe-jrqEaGty64g" sourceArrow="FillDiamond" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@edgeMappings[name='BDD.Activity.Composition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_2MXaxNENEe-jrqEaGty64g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@edgeMappings[name='BDD.Activity.Composition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4d_fN9ENEe-jrqEaGty64g" sourceNode="_jFvaENELEe-jrqEaGty64g" targetNode="_ltKS1NEMEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4d_fONENEe-jrqEaGty64g" sourceArrow="FillDiamond" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@edgeMappings[name='BDD.Activity.Composition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_4d_fOdENEe-jrqEaGty64g"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='BDD.Behavior']/@defaultLayer/@edgeMappings[name='BDD.Activity.Composition']"/>
     </ownedDiagramElements>
@@ -10857,5 +11170,672 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_6G8CMMyUEe-HLskI6asmVQ"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer"/>
     <target xmi:type="sysadl:ActivityBody" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidatePaymentAC']/@body"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_rQk4ENEMEe-jrqEaGty64g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_rQsM0NEMEe-jrqEaGty64g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_rQsM0dEMEe-jrqEaGty64g" type="Sirius" element="_rQk4ENEMEe-jrqEaGty64g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_rQv3MNEMEe-jrqEaGty64g" type="2002" element="_rQsz4NEMEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_rQv3M9EMEe-jrqEaGty64g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_rQv3NNEMEe-jrqEaGty64g" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_rQv3NdEMEe-jrqEaGty64g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_rQv3NtEMEe-jrqEaGty64g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rQv3MdEMEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rQv3MtEMEe-jrqEaGty64g" x="125" y="60"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_rQsM0tEMEe-jrqEaGty64g"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_rQvQIdEMEe-jrqEaGty64g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_rQvQItEMEe-jrqEaGty64g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_rQsz4NEMEe-jrqEaGty64g" name="param [Activity] ValidadeTicketAC" width="60" height="40">
+      <target xmi:type="sysadl:ActivityDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']"/>
+      <semanticElements xmi:type="sysadl:ActivityDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_rQupENEMEe-jrqEaGty64g" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_rQk4EdEMEe-jrqEaGty64g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer"/>
+    <target xmi:type="sysadl:ActivityDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_tXe6MNEMEe-jrqEaGty64g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_tXfhQNEMEe-jrqEaGty64g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_tXfhQdEMEe-jrqEaGty64g" type="Sirius" element="_tXe6MNEMEe-jrqEaGty64g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_tXgvYtEMEe-jrqEaGty64g" type="2002" element="_tXfhQ9EMEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_tXgvZdEMEe-jrqEaGty64g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_tXgvZtEMEe-jrqEaGty64g" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_1o46QNENEe-jrqEaGty64g" type="3008" element="_1oDz0tENEe-jrqEaGty64g">
+              <children xmi:type="notation:Node" xmi:id="_1o46Q9ENEe-jrqEaGty64g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_1o5hUNENEe-jrqEaGty64g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_1o5hUdENEe-jrqEaGty64g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_1o5hUtENEe-jrqEaGty64g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1o5hU9ENEe-jrqEaGty64g" type="3012" element="_1oFpANENEe-jrqEaGty64g">
+                <children xmi:type="notation:Node" xmi:id="_1o6IYNENEe-jrqEaGty64g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1o6IYdENEe-jrqEaGty64g" x="11" y="-1"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1o6IZ9ENEe-jrqEaGty64g" type="3003" element="_1oGQENENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1o6IaNENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1o6IadENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1o5hVNENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1o5hVdENEe-jrqEaGty64g" x="195" y="25" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1o6IYtENEe-jrqEaGty64g" type="3012" element="_1oG3IdENEe-jrqEaGty64g">
+                <children xmi:type="notation:Node" xmi:id="_1o6IZdENEe-jrqEaGty64g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1o6IZtENEe-jrqEaGty64g" x="11" y="-1"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1o6vcNENEe-jrqEaGty64g" type="3003" element="_1oG3ItENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1o6vcdENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1o6vctENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1o6IY9ENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1o6IZNENEe-jrqEaGty64g" x="-2" y="25" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1o46QdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1o46QtENEe-jrqEaGty64g" x="160" y="194"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2MeIcNENEe-jrqEaGty64g" type="3008" element="_2MUXctENEe-jrqEaGty64g">
+              <children xmi:type="notation:Node" xmi:id="_2MeIc9ENEe-jrqEaGty64g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_2MevgNENEe-jrqEaGty64g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_2MevgdENEe-jrqEaGty64g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_2MevgtENEe-jrqEaGty64g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_2Mevg9ENEe-jrqEaGty64g" type="3012" element="_2MUXddENEe-jrqEaGty64g">
+                <children xmi:type="notation:Node" xmi:id="_2MevhtENEe-jrqEaGty64g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_2Mevh9ENEe-jrqEaGty64g" x="11" y="-1"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_2MevjdENEe-jrqEaGty64g" type="3003" element="_2MUXdtENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_2MevjtENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Mevj9ENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_2MevhNENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2MevhdENEe-jrqEaGty64g" x="167" y="25" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_2MeviNENEe-jrqEaGty64g" type="3012" element="_2MUXeNENEe-jrqEaGty64g">
+                <children xmi:type="notation:Node" xmi:id="_2Mevi9ENEe-jrqEaGty64g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_2MevjNENEe-jrqEaGty64g" x="11" y="-1"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_2MfWkNENEe-jrqEaGty64g" type="3003" element="_2MUXedENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_2MfWkdENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2MfWktENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_2MevidENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2MevitENEe-jrqEaGty64g" x="-2" y="40" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2MeIcdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2MeIctENEe-jrqEaGty64g" x="174" y="314"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_4eGz4tENEe-jrqEaGty64g" type="3008" element="_4d9C5tENEe-jrqEaGty64g">
+              <children xmi:type="notation:Node" xmi:id="_4eGz5dENEe-jrqEaGty64g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_4eGz5tENEe-jrqEaGty64g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_4eGz59ENEe-jrqEaGty64g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_4eGz6NENEe-jrqEaGty64g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_4eGz6dENEe-jrqEaGty64g" type="3012" element="_4d9C6dENEe-jrqEaGty64g">
+                <children xmi:type="notation:Node" xmi:id="_4eGz7NENEe-jrqEaGty64g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_4eGz7dENEe-jrqEaGty64g" x="11" y="-1"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_4eICANENEe-jrqEaGty64g" type="3003" element="_4d9C6tENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_4eICAdENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eICAtENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_4eGz6tENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eGz69ENEe-jrqEaGty64g" x="259" y="30" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_4eHa8NENEe-jrqEaGty64g" type="3012" element="_4d9C7NENEe-jrqEaGty64g">
+                <children xmi:type="notation:Node" xmi:id="_4eHa89ENEe-jrqEaGty64g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_4eHa9NENEe-jrqEaGty64g" x="11" y="-1"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_4eICA9ENEe-jrqEaGty64g" type="3003" element="_4d9C7dENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_4eICBNENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eICBdENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_4eHa8dENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eHa8tENEe-jrqEaGty64g" x="-2" y="53" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_4eHa9dENEe-jrqEaGty64g" type="3012" element="_4d9C79ENEe-jrqEaGty64g">
+                <children xmi:type="notation:Node" xmi:id="_4eHa-NENEe-jrqEaGty64g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_4eHa-dENEe-jrqEaGty64g" x="11" y="-1"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_4eICBtENEe-jrqEaGty64g" type="3003" element="_4d9C8NENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_4eICB9ENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eICCNENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_4eHa9tENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eHa99ENEe-jrqEaGty64g" x="-2" y="30" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_4eGz49ENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eGz5NENEe-jrqEaGty64g" x="480" y="261"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_tXgvZ9EMEe-jrqEaGty64g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_tXgvaNEMEe-jrqEaGty64g"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6DSpANENEe-jrqEaGty64g" type="3012" element="_6CmsgtENEe-jrqEaGty64g">
+            <children xmi:type="notation:Node" xmi:id="_6DSpA9ENEe-jrqEaGty64g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_6DSpBNENEe-jrqEaGty64g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6DSpBdENEe-jrqEaGty64g" type="3003" element="_6Cn6oNENEe-jrqEaGty64g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_6DSpBtENEe-jrqEaGty64g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6DSpB9ENEe-jrqEaGty64g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_6DSpAdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6DSpAtENEe-jrqEaGty64g" x="-22" y="219" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6gDdgNENEe-jrqEaGty64g" type="3012" element="_6f5sgtENEe-jrqEaGty64g">
+            <children xmi:type="notation:Node" xmi:id="_6gEEkNENEe-jrqEaGty64g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_6gEEkdENEe-jrqEaGty64g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6gEEktENEe-jrqEaGty64g" type="3003" element="_6f6TkNENEe-jrqEaGty64g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_6gEEk9ENEe-jrqEaGty64g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6gEElNENEe-jrqEaGty64g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_6gDdgdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6gDdgtENEe-jrqEaGty64g" x="-22" y="370" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7BeIgNENEe-jrqEaGty64g" type="3012" element="_7A0oRNENEe-jrqEaGty64g">
+            <children xmi:type="notation:Node" xmi:id="_7BevkNENEe-jrqEaGty64g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_7BevkdENEe-jrqEaGty64g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_7BevktENEe-jrqEaGty64g" type="3003" element="_7A0oRdENEe-jrqEaGty64g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_7Bevk9ENEe-jrqEaGty64g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7BevlNENEe-jrqEaGty64g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_7BeIgdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7BeIgtENEe-jrqEaGty64g" x="1013" y="225" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_tXgvY9EMEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tXgvZNEMEe-jrqEaGty64g" x="120" y="40" width="1023" height="508"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_tXfhQtEMEe-jrqEaGty64g"/>
+        <edges xmi:type="notation:Edge" xmi:id="_-JGn0NENEe-jrqEaGty64g" type="4001" element="_-IhZANENEe-jrqEaGty64g" source="_6DSpANENEe-jrqEaGty64g" target="_1o6IYtENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_-JHO4NENEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-JHO4dENEe-jrqEaGty64g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-JHO4tENEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-JHO49ENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-JHO5NENEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-JHO5dENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_-JGn0dENEe-jrqEaGty64g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-JGn0tENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-JGn09ENEe-jrqEaGty64g" points="[0, 0, -155, 0]$[155, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-JHO5tENEe-jrqEaGty64g" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-JHO59ENEe-jrqEaGty64g" id="(0.0,0.9)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_-rPrkNENEe-jrqEaGty64g" type="4001" element="_-rIW7tENEe-jrqEaGty64g" source="_6gDdgNENEe-jrqEaGty64g" target="_2MeviNENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_-rPrlNENEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-rPrldENEe-jrqEaGty64g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-rPrltENEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-rPrl9ENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-rPrmNENEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-rPrmdENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_-rPrkdENEe-jrqEaGty64g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-rPrktENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-rPrk9ENEe-jrqEaGty64g" points="[0, 0, -169, 15]$[84, 0, -85, 15]$[84, -15, -85, 0]$[169, -15, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-rQSoNENEe-jrqEaGty64g" id="(1.0,0.3333333333333333)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-rQSodENEe-jrqEaGty64g" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="__F6OUNENEe-jrqEaGty64g" type="4001" element="__FXbyNENEe-jrqEaGty64g" source="_7BeIgNENEe-jrqEaGty64g" target="_4eGz6dENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="__F6OVNENEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__F6OVdENEe-jrqEaGty64g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__F6OVtENEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__F6OV9ENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__F6OWNENEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__F6OWdENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__F6OUdENEe-jrqEaGty64g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__F6OUtENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__F6OU9ENEe-jrqEaGty64g" points="[0, 0, 259, -71]$[-130, 0, 129, -71]$[-130, 71, 129, 0]$[-259, 71, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__F6OWtENEe-jrqEaGty64g" id="(0.0,0.16666666666666666)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__F6OW9ENEe-jrqEaGty64g" id="(1.0,0.4)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="__jeUENENEe-jrqEaGty64g" type="4001" element="__iyXkNENEe-jrqEaGty64g" source="_1o5hU9ENEe-jrqEaGty64g" target="_4eHa9dENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="__jeUFNENEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__jeUFdENEe-jrqEaGty64g" x="11" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__jeUFtENEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__jeUF9ENEe-jrqEaGty64g" x="3" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__jeUGNENEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__jeUGdENEe-jrqEaGty64g" x="-3" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__jeUEdENEe-jrqEaGty64g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__jeUEtENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__jeUE9ENEe-jrqEaGty64g" points="[0, 0, -113, -77]$[56, 0, -57, -77]$[56, 77, -57, 0]$[113, 77, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__jeUGtENEe-jrqEaGty64g" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__jeUG9ENEe-jrqEaGty64g" id="(0.0,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_BHS3QNEOEe-jrqEaGty64g" type="4001" element="_BHJtVNEOEe-jrqEaGty64g" source="_2Mevg9ENEe-jrqEaGty64g" target="_4eHa8NENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_BHS3RNEOEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BHS3RdEOEe-jrqEaGty64g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BHS3RtEOEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BHS3R9EOEe-jrqEaGty64g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BHS3SNEOEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BHS3SdEOEe-jrqEaGty64g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_BHS3QdEOEe-jrqEaGty64g" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_BHS3QtEOEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BHS3Q9EOEe-jrqEaGty64g" points="[0, 0, -127, 30]$[63, 0, -64, 30]$[63, -30, -64, 0]$[127, -30, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BHS3StEOEe-jrqEaGty64g" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BHS3S9EOEe-jrqEaGty64g" id="(0.0,0.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_tXgvYNEMEe-jrqEaGty64g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_tXgvYdEMEe-jrqEaGty64g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_tXfhQ9EMEe-jrqEaGty64g" name="act [Behavior] ValidadeTicketAC">
+      <target xmi:type="sysadl:ActivityBody" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body"/>
+      <semanticElements xmi:type="sysadl:ActivityBody" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_6CmsgtENEe-jrqEaGty64g" name="payment : Payment" outgoingEdges="_-IhZANENEe-jrqEaGty64g" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@inParameters[name='payment']"/>
+        <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@inParameters[name='payment']"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_6Cn6oNENEe-jrqEaGty64g" showIcon="false" labelPosition="node" color="140,140,232">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@borderedNodeMappings[name='ADNew.Pins.In']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@borderedNodeMappings[name='ADNew.Pins.In']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_6f5sgtENEe-jrqEaGty64g" name="ticket : Ticket" outgoingEdges="_-rIW7tENEe-jrqEaGty64g" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@inParameters[name='ticket']"/>
+        <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@inParameters[name='ticket']"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_6f6TkNENEe-jrqEaGty64g" showIcon="false" labelPosition="node" color="140,140,232">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@borderedNodeMappings[name='ADNew.Pins.In']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@borderedNodeMappings[name='ADNew.Pins.In']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_7A0oRNENEe-jrqEaGty64g" name="isValid : Boolean" outgoingEdges="__FXbyNENEe-jrqEaGty64g" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@outParameters[name='isValid']"/>
+        <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@outParameters[name='isValid']"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_7A0oRdENEe-jrqEaGty64g" showIcon="false" labelPosition="node" color="113,171,203">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@borderedNodeMappings[name='ADNew.Pins.Out']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@borderedNodeMappings[name='ADNew.Pins.Out']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_tXgIUNEMEe-jrqEaGty64g" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_1oDz0tENEe-jrqEaGty64g" name="&lt;&lt;action>>&#xA;ReceivePaymentAN : ReceivePaymentAN">
+        <target xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceivePaymentAN']"/>
+        <semanticElements xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceivePaymentAN']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_1oFpANENEe-jrqEaGty64g" name=":Payment" outgoingEdges="__iyXkNENEe-jrqEaGty64g" width="1" height="1">
+          <target xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceivePaymentAN']"/>
+          <semanticElements xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceivePaymentAN']"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_1oGQENENEe-jrqEaGty64g" showIcon="false" color="113,171,203">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Output']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Output']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_1oG3IdENEe-jrqEaGty64g" name="payment1" incomingEdges="_-IhZANENEe-jrqEaGty64g" width="1" height="1">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceivePaymentAN']/@pinIn[name='payment1']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceivePaymentAN']/@pinIn[name='payment1']"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_1oG3ItENEe-jrqEaGty64g" showIcon="false" color="140,140,232">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Input']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Input']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_1oFB8NENEe-jrqEaGty64g" showIcon="false" iconPath="/org.sysadl.viewpoints/icons/Action.gif" borderSize="1" borderSizeComputationExpression="1" backgroundColor="247,220,159" foregroundColor="247,220,159">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_2MUXctENEe-jrqEaGty64g" name="&lt;&lt;action>>&#xA;ReceiveTicketAN : ReceiveTicketAN">
+        <target xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceiveTicketAN']"/>
+        <semanticElements xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceiveTicketAN']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_2MUXddENEe-jrqEaGty64g" name=":Ticket" outgoingEdges="_BHJtVNEOEe-jrqEaGty64g" width="1" height="1">
+          <target xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceiveTicketAN']"/>
+          <semanticElements xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceiveTicketAN']"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_2MUXdtENEe-jrqEaGty64g" showIcon="false" color="113,171,203">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Output']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Output']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_2MUXeNENEe-jrqEaGty64g" name="ticket1" incomingEdges="_-rIW7tENEe-jrqEaGty64g" width="1" height="1">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceiveTicketAN']/@pinIn[name='ticket1']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ReceiveTicketAN']/@pinIn[name='ticket1']"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_2MUXedENEe-jrqEaGty64g" showIcon="false" color="140,140,232">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Input']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Input']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_2MUXc9ENEe-jrqEaGty64g" showIcon="false" iconPath="/org.sysadl.viewpoints/icons/Action.gif" borderSize="1" borderSizeComputationExpression="1" backgroundColor="247,220,159" foregroundColor="247,220,159">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_4d9C5tENEe-jrqEaGty64g" name="&lt;&lt;action>>&#xA;ValidateTicketPaymentAN : ValidateTicketPaymentAN">
+        <target xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ValidateTicketPaymentAN']"/>
+        <semanticElements xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ValidateTicketPaymentAN']"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_4d9C6dENEe-jrqEaGty64g" name=":Boolean" incomingEdges="__FXbyNENEe-jrqEaGty64g" width="1" height="1">
+          <target xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ValidateTicketPaymentAN']"/>
+          <semanticElements xmi:type="sysadl:ActionUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ValidateTicketPaymentAN']"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_4d9C6tENEe-jrqEaGty64g" showIcon="false" color="113,171,203">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Output']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Output']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_4d9C7NENEe-jrqEaGty64g" name="ticket2" incomingEdges="_BHJtVNEOEe-jrqEaGty64g" width="1" height="1">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ValidateTicketPaymentAN']/@pinIn[name='ticket2']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ValidateTicketPaymentAN']/@pinIn[name='ticket2']"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_4d9C7dENEe-jrqEaGty64g" showIcon="false" color="140,140,232">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Input']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Input']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_4d9C79ENEe-jrqEaGty64g" name="payment2" incomingEdges="__iyXkNENEe-jrqEaGty64g" width="1" height="1">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ValidateTicketPaymentAN']/@pinIn[name='payment2']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@actions[name='ValidateTicketPaymentAN']/@pinIn[name='payment2']"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_4d9C8NENEe-jrqEaGty64g" showIcon="false" color="140,140,232">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Input']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@borderedNodeMappings[name='ADNew.Actions.Input']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_4d9C59ENEe-jrqEaGty64g" showIcon="false" iconPath="/org.sysadl.viewpoints/icons/Action.gif" borderSize="1" borderSizeComputationExpression="1" backgroundColor="247,220,159" foregroundColor="247,220,159">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@containerMappings[name='ADNew.Self']/@subContainerMappings[name='ADNew.Actions']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_-IhZANENEe-jrqEaGty64g" sourceNode="_6CmsgtENEe-jrqEaGty64g" targetNode="_1oG3IdENEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@flows.0"/>
+      <semanticElements xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@flows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_-IhZAdENEe-jrqEaGty64g" lineStyle="dash" targetArrow="NoDecoration" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@edgeMappings[name='ADNew.Delegation.In']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_-IhZAtENEe-jrqEaGty64g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@edgeMappings[name='ADNew.Delegation.In']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_-rIW7tENEe-jrqEaGty64g" sourceNode="_6f5sgtENEe-jrqEaGty64g" targetNode="_2MUXeNENEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@flows.1"/>
+      <semanticElements xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@flows.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_-rIW79ENEe-jrqEaGty64g" lineStyle="dash" targetArrow="NoDecoration" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@edgeMappings[name='ADNew.Delegation.In']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_-rIW8NENEe-jrqEaGty64g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@edgeMappings[name='ADNew.Delegation.In']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__FXbyNENEe-jrqEaGty64g" sourceNode="_7A0oRNENEe-jrqEaGty64g" targetNode="_4d9C6dENEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@flows.2"/>
+      <semanticElements xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@flows.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__FYC0NENEe-jrqEaGty64g" lineStyle="dash" targetArrow="NoDecoration" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@edgeMappings[name='ADNew.Delegation.Out']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__FYC0dENEe-jrqEaGty64g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@edgeMappings[name='ADNew.Delegation.Out']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__iyXkNENEe-jrqEaGty64g" sourceNode="_1oFpANENEe-jrqEaGty64g" targetNode="_4d9C79ENEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityFlow" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@flows.3"/>
+      <semanticElements xmi:type="sysadl:ActivityFlow" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@flows.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__iyXkdENEe-jrqEaGty64g" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@edgeMappings[name='ADNew.Flows']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__iyXktENEe-jrqEaGty64g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@edgeMappings[name='ADNew.Flows']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_BHJtVNEOEe-jrqEaGty64g" sourceNode="_2MUXddENEe-jrqEaGty64g" targetNode="_4d9C7NENEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityFlow" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@flows.4"/>
+      <semanticElements xmi:type="sysadl:ActivityFlow" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body/@flows.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_BHJtVdEOEe-jrqEaGty64g" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@edgeMappings[name='ADNew.Flows']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_BHJtVtEOEe-jrqEaGty64g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer/@edgeMappings[name='ADNew.Flows']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_tXe6MdEMEe-jrqEaGty64g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='SysADL.AD']/@defaultLayer"/>
+    <target xmi:type="sysadl:ActivityBody" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidadeTicketAC']/@body"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_rezE0NENEe-jrqEaGty64g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_rezr4tENEe-jrqEaGty64g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_rezr49ENEe-jrqEaGty64g" type="Sirius" element="_rezE0NENEe-jrqEaGty64g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_rf0YgtENEe-jrqEaGty64g" type="2002" element="_re0S8NENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_rf0YhdENEe-jrqEaGty64g" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_rf0YhtENEe-jrqEaGty64g" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_rf_-sNENEe-jrqEaGty64g" type="3007" element="_re3WQtENEe-jrqEaGty64g">
+              <children xmi:type="notation:Node" xmi:id="_rf_-s9ENEe-jrqEaGty64g" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_rf_-tNENEe-jrqEaGty64g" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rgAlwNENEe-jrqEaGty64g" type="3001" element="_rfyjUNENEe-jrqEaGty64g">
+                <children xmi:type="notation:Node" xmi:id="_rgAlw9ENEe-jrqEaGty64g" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_rgAlxNENEe-jrqEaGty64g" x="-4" y="-4"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_rgBz4NENEe-jrqEaGty64g" type="3003" element="_rfyjUdENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_rgBz4dENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rgBz4tENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_rgAlwdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rgAlwtENEe-jrqEaGty64g" x="-12" y="15" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rgAlxdENEe-jrqEaGty64g" type="3001" element="_rfyjU9ENEe-jrqEaGty64g">
+                <children xmi:type="notation:Node" xmi:id="_rgAlyNENEe-jrqEaGty64g" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_rgAlydENEe-jrqEaGty64g" x="21" y="3"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_rgBz49ENEe-jrqEaGty64g" type="3003" element="_rfyjVNENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_rgBz5NENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rgBz5dENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_rgAlxtENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rgAlx9ENEe-jrqEaGty64g" x="-12" y="45" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rgBM0NENEe-jrqEaGty64g" type="3003" element="_rfwHENENEe-jrqEaGty64g">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_rgBM0dENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rgBM0tENEe-jrqEaGty64g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_wdM4gdENEe-jrqEaGty64g" type="3001" element="_wdMRdtENEe-jrqEaGty64g">
+                <children xmi:type="notation:Node" xmi:id="_wdM4hNENEe-jrqEaGty64g" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_wdM4hdENEe-jrqEaGty64g" x="21" y="3"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_wdNfkNENEe-jrqEaGty64g" type="3003" element="_wdMRd9ENEe-jrqEaGty64g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_wdNfkdENEe-jrqEaGty64g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wdNfktENEe-jrqEaGty64g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_wdM4gtENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wdM4g9ENEe-jrqEaGty64g" x="112" y="30" width="20" height="20"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rf_-sdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rf_-stENEe-jrqEaGty64g" x="240" y="159" width="120" height="70"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_rf0Yh9ENEe-jrqEaGty64g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_rf0YiNENEe-jrqEaGty64g"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rf20wNENEe-jrqEaGty64g" type="3012" element="_re2IIdENEe-jrqEaGty64g">
+            <children xmi:type="notation:Node" xmi:id="_rf3b0NENEe-jrqEaGty64g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rf3b0dENEe-jrqEaGty64g" x="-4" y="-169"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rgBz5tENEe-jrqEaGty64g" type="3003" element="_re2IItENEe-jrqEaGty64g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rgBz59ENEe-jrqEaGty64g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rgBz6NENEe-jrqEaGty64g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rf20wdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rf20wtENEe-jrqEaGty64g" x="-12" y="165" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rf-wkNENEe-jrqEaGty64g" type="3012" element="_re2IJNENEe-jrqEaGty64g">
+            <children xmi:type="notation:Node" xmi:id="_rf-wk9ENEe-jrqEaGty64g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rf-wlNENEe-jrqEaGty64g" x="21" y="3"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rgBz6dENEe-jrqEaGty64g" type="3003" element="_re2IJdENEe-jrqEaGty64g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rgBz6tENEe-jrqEaGty64g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rgBz69ENEe-jrqEaGty64g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rf-wkdENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rf-wktENEe-jrqEaGty64g" x="-12" y="225" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rf_XoNENEe-jrqEaGty64g" type="3012" element="_re2IJ9ENEe-jrqEaGty64g">
+            <children xmi:type="notation:Node" xmi:id="_rf_Xo9ENEe-jrqEaGty64g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rf_XpNENEe-jrqEaGty64g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rgBz7NENEe-jrqEaGty64g" type="3003" element="_re3WQNENEe-jrqEaGty64g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rgBz7dENEe-jrqEaGty64g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rgBz7tENEe-jrqEaGty64g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rf_XodENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rf_XotENEe-jrqEaGty64g" x="590" y="190" width="20" height="20"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rf0Yg9ENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rf0YhNENEe-jrqEaGty64g" x="270" y="95"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_rezr5NENEe-jrqEaGty64g"/>
+        <edges xmi:type="notation:Edge" xmi:id="_x8m1wNENEe-jrqEaGty64g" type="4001" element="_x7xIQNENEe-jrqEaGty64g" source="_rf20wNENEe-jrqEaGty64g" target="_rgAlwNENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_x8nc0NENEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x8nc0dENEe-jrqEaGty64g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_x8oD4NENEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x8oD4dENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_x8oq8NENEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x8oq8dENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_x8m1wdENEe-jrqEaGty64g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_x8m1wtENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x8m1w9ENEe-jrqEaGty64g" points="[0, 0, -225, -10]$[225, 10, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x8pSANENEe-jrqEaGty64g" id="(1.0,0.75)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x8pSAdENEe-jrqEaGty64g" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_yf6XINENEe-jrqEaGty64g" type="4001" element="_yfv_FNENEe-jrqEaGty64g" source="_rf-wkNENEe-jrqEaGty64g" target="_rgAlxdENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_yf6XJNENEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yf6XJdENEe-jrqEaGty64g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_yf6XJtENEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yf6XJ9ENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_yf6XKNENEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yf6XKdENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_yf6XIdENEe-jrqEaGty64g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_yf6XItENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yf6XI9ENEe-jrqEaGty64g" points="[0, 0, -225, 15]$[225, -15, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yf6XKtENEe-jrqEaGty64g" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yf6XK9ENEe-jrqEaGty64g" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_y4q1YNENEe-jrqEaGty64g" type="4001" element="_y36neNENEe-jrqEaGty64g" source="_rf_XoNENEe-jrqEaGty64g" target="_wdM4gdENEe-jrqEaGty64g">
+          <children xmi:type="notation:Node" xmi:id="_y4q1ZNENEe-jrqEaGty64g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y4q1ZdENEe-jrqEaGty64g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_y4q1ZtENEe-jrqEaGty64g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y4q1Z9ENEe-jrqEaGty64g" x="2" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_y4q1aNENEe-jrqEaGty64g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y4q1adENEe-jrqEaGty64g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_y4q1YdENEe-jrqEaGty64g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_y4q1YtENEe-jrqEaGty64g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_y4q1Y9ENEe-jrqEaGty64g" points="[0, 0, 213, -5]$[-213, 5, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y4q1atENEe-jrqEaGty64g" id="(0.0,0.25)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y4rccNENEe-jrqEaGty64g" id="(1.0,0.25)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_rf0YgNENEe-jrqEaGty64g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_rf0YgdENEe-jrqEaGty64g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_re0S8NENEe-jrqEaGty64g" name="param [Action] ValidateTicketPaymentAN" width="60" height="40">
+      <target xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']"/>
+      <semanticElements xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_re2IIdENEe-jrqEaGty64g" name="ticket" outgoingEdges="_x7xIQNENEe-jrqEaGty64g" width="2" height="2">
+        <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@inParameters[name='ticket']"/>
+        <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@inParameters[name='ticket']"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_re2IItENEe-jrqEaGty64g" showIcon="false" labelAlignment="LEFT" color="140,140,232">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@borderedNodeMappings[name='Parametric.ParamIn']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@borderedNodeMappings[name='Parametric.ParamIn']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_re2IJNENEe-jrqEaGty64g" name="payment" outgoingEdges="_yfv_FNENEe-jrqEaGty64g" width="2" height="2">
+        <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@inParameters[name='payment']"/>
+        <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@inParameters[name='payment']"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_re2IJdENEe-jrqEaGty64g" showIcon="false" labelAlignment="LEFT" color="140,140,232">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@borderedNodeMappings[name='Parametric.ParamIn']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@borderedNodeMappings[name='Parametric.ParamIn']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_re2IJ9ENEe-jrqEaGty64g" name=":Boolean" outgoingEdges="_y36neNENEe-jrqEaGty64g" width="2" height="2">
+        <target xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']"/>
+        <semanticElements xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_re3WQNENEe-jrqEaGty64g" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="113,171,203">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@borderedNodeMappings[name='Parametric.ParamOut.Action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@borderedNodeMappings[name='Parametric.ParamOut.Action']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_re1hENENEe-jrqEaGty64g" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_re3WQtENEe-jrqEaGty64g" name="&lt;&lt;Constraint>>&#xA;:ValidateTicketPaymentEQ&#xA;" width="12" height="7" resizeKind="NSEW">
+        <target xmi:type="sysadl:ConstraintUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@constraints.0"/>
+        <semanticElements xmi:type="sysadl:ConstraintUse" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@constraints.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_rfyjUNENEe-jrqEaGty64g" name="ticket" incomingEdges="_x7xIQNENEe-jrqEaGty64g" width="2" height="2">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@inParameters[name='ticket']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@inParameters[name='ticket']"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_rfyjUdENEe-jrqEaGty64g" showIcon="false" color="140,140,232">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@subNodeMappings[name='Parametric.Activity.Constraints']/@borderedNodeMappings[name='Parametric.Activity.Constraints.ParamIn']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@subNodeMappings[name='Parametric.Activity.Constraints']/@borderedNodeMappings[name='Parametric.Activity.Constraints.ParamIn']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_rfyjU9ENEe-jrqEaGty64g" name="payment" incomingEdges="_yfv_FNENEe-jrqEaGty64g" width="2" height="2">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@inParameters[name='payment']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@inParameters[name='payment']"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_rfyjVNENEe-jrqEaGty64g" showIcon="false" color="140,140,232">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@subNodeMappings[name='Parametric.Activity.Constraints']/@borderedNodeMappings[name='Parametric.Activity.Constraints.ParamIn']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@subNodeMappings[name='Parametric.Activity.Constraints']/@borderedNodeMappings[name='Parametric.Activity.Constraints.ParamIn']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_wdMRdtENEe-jrqEaGty64g" name="isValid" incomingEdges="_y36neNENEe-jrqEaGty64g" width="2" height="2">
+          <target xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@outParameters[name='isValid']"/>
+          <semanticElements xmi:type="sysadl:Pin" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentEQ']/@outParameters[name='isValid']"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_wdMRd9ENEe-jrqEaGty64g" showIcon="false" color="113,171,203">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@subNodeMappings[name='Parametric.Activity.Constraints']/@borderedNodeMappings[name='Parametric.Activity.Constraints.ParamOut']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@subNodeMappings[name='Parametric.Activity.Constraints']/@borderedNodeMappings[name='Parametric.Activity.Constraints.ParamOut']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:Square" uid="_rfwHENENEe-jrqEaGty64g" showIcon="false" labelPosition="node" width="12" height="7" color="126,177,254">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@subNodeMappings[name='Parametric.Activity.Constraints']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@containerMappings[name='Parametric.Activity.Self']/@subNodeMappings[name='Parametric.Activity.Constraints']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_x7xIQNENEe-jrqEaGty64g" sourceNode="_re2IIdENEe-jrqEaGty64g" targetNode="_rfyjUNENEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@delegations.0"/>
+      <semanticElements xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@delegations.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_x7xIQdENEe-jrqEaGty64g" lineStyle="dash" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@edgeMappings[name='Parametric.PinBinding']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_x7xIQtENEe-jrqEaGty64g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@edgeMappings[name='Parametric.PinBinding']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_yfv_FNENEe-jrqEaGty64g" sourceNode="_re2IJNENEe-jrqEaGty64g" targetNode="_rfyjU9ENEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@delegations.1"/>
+      <semanticElements xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@delegations.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_yfv_FdENEe-jrqEaGty64g" lineStyle="dash" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@edgeMappings[name='Parametric.PinBinding']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_yfv_FtENEe-jrqEaGty64g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@edgeMappings[name='Parametric.PinBinding']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_y36neNENEe-jrqEaGty64g" sourceNode="_re2IJ9ENEe-jrqEaGty64g" targetNode="_wdMRdtENEe-jrqEaGty64g">
+      <target xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@delegations.2"/>
+      <semanticElements xmi:type="sysadl:ActivityDelegation" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']/@delegations.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_y36nedENEe-jrqEaGty64g" lineStyle="dash" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@edgeMappings[name='Parametric.PinBinding']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_y36netENEe-jrqEaGty64g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer/@edgeMappings[name='Parametric.PinBinding']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_rezE0dENEe-jrqEaGty64g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']/@ownedRepresentations[name='Parametric']/@defaultLayer"/>
+    <target xmi:type="sysadl:ActionDef" href="ParkingControl.sysadl#//@packages[name='SysADL.types']/@definitions[name='ValidateTicketPaymentAN']"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
